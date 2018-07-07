@@ -11,12 +11,13 @@
     <title>TakeHomeExam</title>
   </head>
   <body>
+      <p style="text-align:center">      
     <form method="post" enctype="multipart/form-data">
       <div class="form-group">
-        <label for="exampleFormControlFile1">File input</label>
+        <label for="exampleFormControlFile1"><h5><b>Choose the Input Excel File</b></h5></label>
         <input type="file" class="form-control-file" id="exampleFormControlFile1" name="inputfile" required>
-        <button type="submit" class="btn btn-primary">Submit</button>
-        <a href="/illendula_output.xlsx" class="btn btn-primary">Download</a>
+        <button type="submit" class="btn btn-primary">Download the Output Excel File</button>
+        <!-- <a href="/illendula_output.xlsx" class="btn btn-primary">Download</a> -->
       </div>
     </form>
     
@@ -24,21 +25,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.all.js"></script>
-    <script>
+    <!-- <script>
     $(function(){
 
-      <% if(success){ %>
-        swal(
-          'Congratulations',
-          'Now you can download the file',
-          'success'
-        )
+    //   <% if(success){ %>
+    //     swal(
+    //       'Congratulations',
+    //       'Now you can download the file',
+    //       'success'
+    //     )
         
-        <% } %>
+    //     <% } %>
 
-    })
-    </script>
- 
+    // })
+    </script> -->
+  </p>
   </body>
 </html>
 
